@@ -24,8 +24,8 @@ if ARGV.size != 2
   puts "USAGE:"
   puts "  $ ./screenx_tv_news.rb TITLE GIVEN_URL"
   puts "Example:"
-  puts "  $ ./screenx_tv_news.rb \"Yohei's Codestream\" yohei"
-  puts "   -> Yohei's Codestream started broadcasting! Check this out (｢･ ω ･)｢ http://screenx.tv/yohei"
+  puts "  $ ./screenx_tv_news.rb \"Infinite Date\" date"
+  puts "   -> Infinite Date started broadcasting! Check this out (｢･ ω ･)｢ http://screenx.tv/date"
   exit
 end
 title     = ARGV[0]
