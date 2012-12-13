@@ -1,10 +1,8 @@
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
 
-require 'pp'
 require 'json'
 require 'twitter'
-require 'open-uri'
 
 # load config.json
 open('config.json') {|f|
