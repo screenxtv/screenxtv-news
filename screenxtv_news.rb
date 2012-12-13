@@ -26,10 +26,15 @@ if ARGV.size != 2
   puts "   -> Infinite Date started broadcasting! Check this out (｢･ ω ･)｢ http://screenx.tv/date"
   exit
 end
-title     = ARGV[0]
-given_url = ARGV[1]
-root_url  = "http://screenx.tv"
-tweet     = "'#{title}' started broadcasting! Check this out (｢･ ω ･)｢ #{root_url}/#{given_url}"
+title        = ARGV[0]
+given_url    = ARGV[1]
+root_url     = "http://screenx.tv"
+quot_len     = 2
+shorturl_len = 20
+msg          = " started broadcasting! Check this out (｢･ ω ･)｢ ";
+title_maxlen = 140 - shorturl_len - quot_len - msg.length;
+title        = title.length <= title_maxlen ? title : title[0,title_maxlen-3]+"..."
+tweet        = "'#{title}'#{msg}#{root_url}/#{given_url}"
 
 # Show what will be tweeted
 puts "The following message will be tweeted via @ScreenX_TV:"
