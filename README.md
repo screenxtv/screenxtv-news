@@ -6,6 +6,19 @@
 
 This is a simple Ruby script that enables you to tweet on your Twitter account, which is used by [ScreenX TV](http://screenx.tv).
 
+## How to Use
+
+1. Get OAuth settings from [Twitter Developers](https://dev.twitter.com/) and set them to `./config.json`.
+2. `bundle install`
+3. `./screenx_tv_news.rb TITLE URL`
+
+   USAGE:
+     `$ ./screenx_tv_news.rb TITLE GIVEN_URL`
+     
+   Example:
+     `$ ./screenx_tv_news.rb "Infinite Date" date`  
+     `-> 'Infinite Date' started broadcasting! Check this out (｢･ ω ･)｢ [http://screenx.tv/date](http://screenx.tv/date)`
+
 ## Related Works
 
 - [ScreenX TV](http://screenx.tv/)
