@@ -1,4 +1,4 @@
-# ScreenX TV Sandbox
+# ScreenX TV News
 
 [![Screenshot](https://raw.github.com/yasulab/screenxtv-news/master/screenshot.png)](http://twitter.com/ScreenX_TV)
 
