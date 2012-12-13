@@ -13,10 +13,10 @@ This is a simple Ruby script that enables you to tweet on your Twitter account, 
 3. `./screenxtv_news.rb TITLE URL`
 
    USAGE:
-     `$ ./screenxtvnews.rb TITLE GIVEN_URL`
+     `$ ./screenxtv_news.rb TITLE GIVEN_URL`
      
    Example:
-     `$ ./screenxtvnews.rb "Infinite Date" date`  
+     `$ ./screenxtv_news.rb "Infinite Date" date`  
      `-> 'Infinite Date' started broadcasting! Check this out (｢･ ω ･)｢ [http://screenx.tv/date](http://screenx.tv/date)`
 
 ## Related Works
