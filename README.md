@@ -1,6 +1,6 @@
 # ScreenX TV News
 
-[![Screenshot](https://raw.github.com/yasulab/screenxtv-news/master/screenshot.png)](http://twitter.com/ScreenX_TV)
+[![Screenshot](https://raw.github.com/screenxtv/screenxtv-news/master/screenshot.png)](http://twitter.com/screenxtv)
 
 ## Description
 
@@ -22,12 +22,13 @@ This is a simple Ruby script that enables you to tweet on your Twitter account, 
 ## Related Works
 
 - [ScreenX TV](http://screenx.tv/)
-- [ScreenX TV Sandbox](https://github.com/yasulab/screenxtv-sandbox)
-- [ScreenX TV GCC Client](https://github.com/tompng/screenxtv-gcc-client)
-- [ScreenX TV Ruby Client](https://github.com/tompng/screenxtv-ruby-client)
-- [ScreenX](https://github.com/tompng/screenx) (internal software)
+- [ScreenX TV GCC Client](https://github.com/screenxtv/screenxtv-gcc-client)
+- [ScreenX TV Ruby Client](https://github.com/screenxtv/screenxtv-ruby-client)
+- [ScreenX TV Sandbox](https://github.com/screenxtv/screenxtv-sandbox)
+- [ScreenX TV News](https://github.com/screenxtv/screenxtv-news)
+- [ScreenX](https://github.com/screenxtv/screenx) (Java-based stand-alone Software)
 
-## License
+## License (MIT)
 
 Copyright (c) 2012 Yohei YASUKAWA
 
